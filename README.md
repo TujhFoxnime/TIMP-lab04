@@ -123,3 +123,25 @@ target_link_libraries(solver formatter_ex_lib solver_lib)
 8) cd build
 9) cmake ..
 10) cmake --build .
+
+~/solver_application/build$ cmake --build .
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/egor/solver_application/build
+Consolidate compiler generated dependencies of target solver_lib
+[ 25%] Built target solver_lib
+Consolidate compiler generated dependencies of target formatter_lib
+[ 50%] Built target formatter_lib
+Consolidate compiler generated dependencies of target formatter_ex_lib
+[ 62%] Building CXX object formatter_ex_lib_dir/CMakeFiles/formatter_ex_lib.dir/b/formatter_ex.cpp.o
+[ 75%] Linking CXX static library libformatter_ex_lib.a
+[ 75%] Built target formatter_ex_lib
+[ 87%] Building CXX object CMakeFiles/solver.dir/equation.cpp.o
+/home/egor/solver_application/build/equation.cpp:3:10: fatal error: formatter_ex.h: Нет такого файла или каталога
+    3 | #include "formatter_ex.h"
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/solver.dir/build.make:76: CMakeFiles/solver.dir/equation.cpp.o] Ошибка 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/solver.dir/all] Ошибка 2
+gmake: *** [Makefile:91: all] Ошибка 2
+
