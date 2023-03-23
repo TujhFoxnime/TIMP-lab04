@@ -1,0 +1,3 @@
+/home/egor/solver_lib/build/CMakeFiles/solver_lib.dir
+/home/egor/solver_lib/build/CMakeFiles/edit_cache.dir
+/home/egor/solver_lib/build/CMakeFiles/rebuild_cache.dir

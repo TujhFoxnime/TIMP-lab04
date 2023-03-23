@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/formatter_ex2.dir/src/formatter_ex.cpp.o -o formatter_ex2  -lformatter_ex_lib 
