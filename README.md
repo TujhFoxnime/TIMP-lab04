@@ -3,7 +3,7 @@
 git clone https://github.com/TujhFoxnime/TIMP-lab03.git
 cd TIMP-lab03
 git remote remove origin удаляем связь с репозиторием лаб03git 
-remote add origin /repositoriy_lab_04/ привязка к новому репозиторию
+remote add origin https://github.com/TujhFoxnime/TIMP-lab04.git привязка к новому репозиторию
 mkdir .github
 cd .github
 mkdir workflows
