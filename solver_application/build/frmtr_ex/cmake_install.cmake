@@ -1,4 +1,4 @@
-# Install script for directory: /home/egor/formatter_ex_lib
+# Install script for directory: /home/egor/TIMP-lab03/formatter_ex_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/egor/solver_application/build/frmtr_ex/formatter/cmake_install.cmake")
+  include("/home/egor/TIMP-lab03/solver_application/build/frmtr_ex/formatter/cmake_install.cmake")
 endif()
 

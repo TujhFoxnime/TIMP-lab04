@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/egor/formatter_ex_lib/CMakeLists.txt"
-  "/home/egor/formatter_lib/CMakeLists.txt"
+  "/home/egor/TIMP-lab03/formatter_ex_lib/CMakeLists.txt"
+  "/home/egor/TIMP-lab03/formatter_lib/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"

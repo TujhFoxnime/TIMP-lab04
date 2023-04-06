@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/egor/formatter_ex_lib/../formatter_lib/src -I/home/egor/solver_application/../formatter_ex_lib/src -I/home/egor/solver_application/../solver_lib/src
+CXX_INCLUDES = -I/home/egor/TIMP-lab03/formatter_ex_lib/../formatter_lib/src -I/home/egor/TIMP-lab03/solver_application/../formatter_ex_lib/src -I/home/egor/TIMP-lab03/solver_application/../solver_lib/src
 
 CXX_FLAGS = -std=gnu++11
 

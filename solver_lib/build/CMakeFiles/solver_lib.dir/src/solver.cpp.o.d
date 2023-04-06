@@ -1,7 +1,7 @@
 CMakeFiles/solver_lib.dir/src/solver.cpp.o: \
- /home/egor/solver_lib/src/solver.cpp /usr/include/stdc-predef.h \
- /home/egor/solver_lib/src/solver.h /usr/include/c++/11/stdexcept \
- /usr/include/c++/11/exception \
+ /home/egor/TIMP-lab03/solver_lib/src/solver.cpp \
+ /usr/include/stdc-predef.h /home/egor/TIMP-lab03/solver_lib/src/solver.h \
+ /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

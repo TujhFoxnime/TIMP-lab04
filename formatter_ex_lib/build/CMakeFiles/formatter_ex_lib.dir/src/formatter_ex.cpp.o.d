@@ -1,7 +1,7 @@
 CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o: \
- /home/egor/formatter_ex_lib/src/formatter_ex.cpp \
+ /home/egor/TIMP-lab03/formatter_ex_lib/src/formatter_ex.cpp \
  /usr/include/stdc-predef.h \
- /home/egor/formatter_ex_lib/src/formatter_ex.h \
+ /home/egor/TIMP-lab03/formatter_ex_lib/src/formatter_ex.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -149,4 +149,4 @@ CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/egor/formatter_ex_lib/../formatter_lib/src/formatter.h
+ /home/egor/TIMP-lab03/formatter_ex_lib/../formatter_lib/src/formatter.h

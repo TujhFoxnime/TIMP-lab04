@@ -1,5 +1,5 @@
 CMakeFiles/solver.dir/src/equation.cpp.o: \
- /home/egor/solver_application/src/equation.cpp \
+ /home/egor/TIMP-lab03/solver_application/src/equation.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -144,5 +144,5 @@ CMakeFiles/solver.dir/src/equation.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/egor/solver_application/../formatter_ex_lib/src/formatter_ex.h \
- /home/egor/solver_application/../solver_lib/src/solver.h
+ /home/egor/TIMP-lab03/solver_application/../formatter_ex_lib/src/formatter_ex.h \
+ /home/egor/TIMP-lab03/solver_application/../solver_lib/src/solver.h

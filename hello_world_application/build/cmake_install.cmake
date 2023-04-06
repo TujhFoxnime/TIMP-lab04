@@ -1,4 +1,4 @@
-# Install script for directory: /home/egor/hello_world_application
+# Install script for directory: /home/egor/TIMP-lab03/hello_world_application
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/egor/hello_world_application/build/formatter_ex/cmake_install.cmake")
+  include("/home/egor/TIMP-lab03/hello_world_application/build/formatter_ex/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/egor/hello_world_application/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/egor/TIMP-lab03/hello_world_application/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/egor/solver_application
+CMAKE_SOURCE_DIR = /home/egor/TIMP-lab03/solver_application
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/egor/solver_application/build
+CMAKE_BINARY_DIR = /home/egor/TIMP-lab03/solver_application/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/egor/solver_application/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles /home/egor/solver_application/build/frmtr_ex/formatter//CMakeFiles/progress.marks
-	cd /home/egor/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles 0
+	cd /home/egor/TIMP-lab03/solver_application/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles /home/egor/TIMP-lab03/solver_application/build/frmtr_ex/formatter//CMakeFiles/progress.marks
+	cd /home/egor/TIMP-lab03/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/egor/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/clean
+	cd /home/egor/TIMP-lab03/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/egor/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/preinstall
+	cd /home/egor/TIMP-lab03/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/egor/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/preinstall
+	cd /home/egor/TIMP-lab03/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/egor/solver_application/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/egor/TIMP-lab03/solver_application/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/rule:
-	cd /home/egor/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/rule
+	cd /home/egor/TIMP-lab03/solver_application/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/rule
 .PHONY : frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ formatter_lib: frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/rule
 
 # fast build rule for target.
 formatter_lib/fast:
-	cd /home/egor/solver_application/build && $(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build
+	cd /home/egor/TIMP-lab03/solver_application/build && $(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build
 .PHONY : formatter_lib/fast
 
 src/formatter.o: src/formatter.cpp.o
@@ -135,7 +135,7 @@ src/formatter.o: src/formatter.cpp.o
 
 # target to build an object file
 src/formatter.cpp.o:
-	cd /home/egor/solver_application/build && $(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/src/formatter.cpp.o
+	cd /home/egor/TIMP-lab03/solver_application/build && $(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/src/formatter.cpp.o
 .PHONY : src/formatter.cpp.o
 
 src/formatter.i: src/formatter.cpp.i
@@ -143,7 +143,7 @@ src/formatter.i: src/formatter.cpp.i
 
 # target to preprocess a source file
 src/formatter.cpp.i:
-	cd /home/egor/solver_application/build && $(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/src/formatter.cpp.i
+	cd /home/egor/TIMP-lab03/solver_application/build && $(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/src/formatter.cpp.i
 .PHONY : src/formatter.cpp.i
 
 src/formatter.s: src/formatter.cpp.s
@@ -151,7 +151,7 @@ src/formatter.s: src/formatter.cpp.s
 
 # target to generate assembly for a file
 src/formatter.cpp.s:
-	cd /home/egor/solver_application/build && $(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/src/formatter.cpp.s
+	cd /home/egor/TIMP-lab03/solver_application/build && $(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/src/formatter.cpp.s
 .PHONY : src/formatter.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/egor/solver_application/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/egor/TIMP-lab03/solver_application/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

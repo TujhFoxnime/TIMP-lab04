@@ -1,6 +1,8 @@
 frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/src/formatter.cpp.o: \
- /home/egor/formatter_lib/src/formatter.cpp /usr/include/stdc-predef.h \
- /home/egor/formatter_lib/src/formatter.h /usr/include/c++/11/string \
+ /home/egor/TIMP-lab03/formatter_lib/src/formatter.cpp \
+ /usr/include/stdc-predef.h \
+ /home/egor/TIMP-lab03/formatter_lib/src/formatter.h \
+ /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

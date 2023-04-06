@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/egor/solver_application
+CMAKE_SOURCE_DIR = /home/egor/TIMP-lab03/solver_application
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/egor/solver_application/build
+CMAKE_BINARY_DIR = /home/egor/TIMP-lab03/solver_application/build
 
 # Include any dependencies generated for this target.
 include frmtr_ex/CMakeFiles/formatter_ex_lib.dir/depend.make
@@ -70,18 +70,18 @@ include frmtr_ex/CMakeFiles/formatter_ex_lib.dir/progress.make
 include frmtr_ex/CMakeFiles/formatter_ex_lib.dir/flags.make
 
 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o: frmtr_ex/CMakeFiles/formatter_ex_lib.dir/flags.make
-frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o: /home/egor/formatter_ex_lib/src/formatter_ex.cpp
+frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o: /home/egor/TIMP-lab03/formatter_ex_lib/src/formatter_ex.cpp
 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o: frmtr_ex/CMakeFiles/formatter_ex_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egor/solver_application/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o"
-	cd /home/egor/solver_application/build/frmtr_ex && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o -MF CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o.d -o CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o -c /home/egor/formatter_ex_lib/src/formatter_ex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egor/TIMP-lab03/solver_application/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o"
+	cd /home/egor/TIMP-lab03/solver_application/build/frmtr_ex && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o -MF CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o.d -o CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o -c /home/egor/TIMP-lab03/formatter_ex_lib/src/formatter_ex.cpp
 
 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.i"
-	cd /home/egor/solver_application/build/frmtr_ex && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/formatter_ex_lib/src/formatter_ex.cpp > CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.i
+	cd /home/egor/TIMP-lab03/solver_application/build/frmtr_ex && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/TIMP-lab03/formatter_ex_lib/src/formatter_ex.cpp > CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.i
 
 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.s"
-	cd /home/egor/solver_application/build/frmtr_ex && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/formatter_ex_lib/src/formatter_ex.cpp -o CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.s
+	cd /home/egor/TIMP-lab03/solver_application/build/frmtr_ex && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/TIMP-lab03/formatter_ex_lib/src/formatter_ex.cpp -o CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.s
 
 # Object files for target formatter_ex_lib
 formatter_ex_lib_OBJECTS = \
@@ -93,19 +93,19 @@ formatter_ex_lib_EXTERNAL_OBJECTS =
 frmtr_ex/libformatter_ex_lib.a: frmtr_ex/CMakeFiles/formatter_ex_lib.dir/src/formatter_ex.cpp.o
 frmtr_ex/libformatter_ex_lib.a: frmtr_ex/CMakeFiles/formatter_ex_lib.dir/build.make
 frmtr_ex/libformatter_ex_lib.a: frmtr_ex/CMakeFiles/formatter_ex_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egor/solver_application/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libformatter_ex_lib.a"
-	cd /home/egor/solver_application/build/frmtr_ex && $(CMAKE_COMMAND) -P CMakeFiles/formatter_ex_lib.dir/cmake_clean_target.cmake
-	cd /home/egor/solver_application/build/frmtr_ex && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/formatter_ex_lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egor/TIMP-lab03/solver_application/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libformatter_ex_lib.a"
+	cd /home/egor/TIMP-lab03/solver_application/build/frmtr_ex && $(CMAKE_COMMAND) -P CMakeFiles/formatter_ex_lib.dir/cmake_clean_target.cmake
+	cd /home/egor/TIMP-lab03/solver_application/build/frmtr_ex && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/formatter_ex_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/build: frmtr_ex/libformatter_ex_lib.a
 .PHONY : frmtr_ex/CMakeFiles/formatter_ex_lib.dir/build
 
 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/clean:
-	cd /home/egor/solver_application/build/frmtr_ex && $(CMAKE_COMMAND) -P CMakeFiles/formatter_ex_lib.dir/cmake_clean.cmake
+	cd /home/egor/TIMP-lab03/solver_application/build/frmtr_ex && $(CMAKE_COMMAND) -P CMakeFiles/formatter_ex_lib.dir/cmake_clean.cmake
 .PHONY : frmtr_ex/CMakeFiles/formatter_ex_lib.dir/clean
 
 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/depend:
-	cd /home/egor/solver_application/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/egor/solver_application /home/egor/formatter_ex_lib /home/egor/solver_application/build /home/egor/solver_application/build/frmtr_ex /home/egor/solver_application/build/frmtr_ex/CMakeFiles/formatter_ex_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/egor/TIMP-lab03/solver_application/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/egor/TIMP-lab03/solver_application /home/egor/TIMP-lab03/formatter_ex_lib /home/egor/TIMP-lab03/solver_application/build /home/egor/TIMP-lab03/solver_application/build/frmtr_ex /home/egor/TIMP-lab03/solver_application/build/frmtr_ex/CMakeFiles/formatter_ex_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : frmtr_ex/CMakeFiles/formatter_ex_lib.dir/depend
 

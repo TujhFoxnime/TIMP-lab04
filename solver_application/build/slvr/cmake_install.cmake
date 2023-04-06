@@ -1,4 +1,4 @@
-# Install script for directory: /home/egor/solver_lib
+# Install script for directory: /home/egor/TIMP-lab03/solver_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/egor/solver_application
+CMAKE_SOURCE_DIR = /home/egor/TIMP-lab03/solver_application
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/egor/solver_application/build
+CMAKE_BINARY_DIR = /home/egor/TIMP-lab03/solver_application/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -135,14 +135,14 @@ CMakeFiles/solver.dir/all: frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/all
 CMakeFiles/solver.dir/all: slvr/CMakeFiles/solver_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver.dir/build.make CMakeFiles/solver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver.dir/build.make CMakeFiles/solver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/solver_application/build/CMakeFiles --progress-num=5,6 "Built target solver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/TIMP-lab03/solver_application/build/CMakeFiles --progress-num=5,6 "Built target solver"
 .PHONY : CMakeFiles/solver.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/solver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/solver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles 0
 .PHONY : CMakeFiles/solver.dir/rule
 
 # Convenience name for target.
@@ -161,14 +161,14 @@ CMakeFiles/solver.dir/clean:
 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/all: frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f frmtr_ex/CMakeFiles/formatter_ex_lib.dir/build.make frmtr_ex/CMakeFiles/formatter_ex_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f frmtr_ex/CMakeFiles/formatter_ex_lib.dir/build.make frmtr_ex/CMakeFiles/formatter_ex_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/solver_application/build/CMakeFiles --progress-num=1,2 "Built target formatter_ex_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/TIMP-lab03/solver_application/build/CMakeFiles --progress-num=1,2 "Built target formatter_ex_lib"
 .PHONY : frmtr_ex/CMakeFiles/formatter_ex_lib.dir/all
 
 # Build rule for subdir invocation for target.
 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/CMakeFiles/formatter_ex_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles 0
 .PHONY : frmtr_ex/CMakeFiles/formatter_ex_lib.dir/rule
 
 # Convenience name for target.
@@ -187,14 +187,14 @@ frmtr_ex/CMakeFiles/formatter_ex_lib.dir/clean:
 frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build.make frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/solver_application/build/CMakeFiles --progress-num=3,4 "Built target formatter_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/TIMP-lab03/solver_application/build/CMakeFiles --progress-num=3,4 "Built target formatter_lib"
 .PHONY : frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/all
 
 # Build rule for subdir invocation for target.
 frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles 0
 .PHONY : frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/rule
 
 # Convenience name for target.
@@ -213,14 +213,14 @@ frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/clean:
 slvr/CMakeFiles/solver_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f slvr/CMakeFiles/solver_lib.dir/build.make slvr/CMakeFiles/solver_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f slvr/CMakeFiles/solver_lib.dir/build.make slvr/CMakeFiles/solver_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/solver_application/build/CMakeFiles --progress-num=7,8 "Built target solver_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/egor/TIMP-lab03/solver_application/build/CMakeFiles --progress-num=7,8 "Built target solver_lib"
 .PHONY : slvr/CMakeFiles/solver_lib.dir/all
 
 # Build rule for subdir invocation for target.
 slvr/CMakeFiles/solver_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 slvr/CMakeFiles/solver_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/solver_application/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/egor/TIMP-lab03/solver_application/build/CMakeFiles 0
 .PHONY : slvr/CMakeFiles/solver_lib.dir/rule
 
 # Convenience name for target.

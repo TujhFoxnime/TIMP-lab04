@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/egor/solver_application/src/equation.cpp" "CMakeFiles/solver.dir/src/equation.cpp.o" "gcc" "CMakeFiles/solver.dir/src/equation.cpp.o.d"
+  "/home/egor/TIMP-lab03/solver_application/src/equation.cpp" "CMakeFiles/solver.dir/src/equation.cpp.o" "gcc" "CMakeFiles/solver.dir/src/equation.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/egor/solver_application/build/frmtr_ex/CMakeFiles/formatter_ex_lib.dir/DependInfo.cmake"
-  "/home/egor/solver_application/build/slvr/CMakeFiles/solver_lib.dir/DependInfo.cmake"
-  "/home/egor/solver_application/build/frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/DependInfo.cmake"
+  "/home/egor/TIMP-lab03/solver_application/build/frmtr_ex/CMakeFiles/formatter_ex_lib.dir/DependInfo.cmake"
+  "/home/egor/TIMP-lab03/solver_application/build/slvr/CMakeFiles/solver_lib.dir/DependInfo.cmake"
+  "/home/egor/TIMP-lab03/solver_application/build/frmtr_ex/formatter/CMakeFiles/formatter_lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

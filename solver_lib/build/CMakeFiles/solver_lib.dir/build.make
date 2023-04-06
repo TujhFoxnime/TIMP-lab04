@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/egor/solver_lib
+CMAKE_SOURCE_DIR = /home/egor/TIMP-lab03/solver_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/egor/solver_lib/build
+CMAKE_BINARY_DIR = /home/egor/TIMP-lab03/solver_lib/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/solver_lib.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/solver_lib.dir/flags.make
 CMakeFiles/solver_lib.dir/src/solver.cpp.o: CMakeFiles/solver_lib.dir/flags.make
 CMakeFiles/solver_lib.dir/src/solver.cpp.o: ../src/solver.cpp
 CMakeFiles/solver_lib.dir/src/solver.cpp.o: CMakeFiles/solver_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egor/solver_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/solver_lib.dir/src/solver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solver_lib.dir/src/solver.cpp.o -MF CMakeFiles/solver_lib.dir/src/solver.cpp.o.d -o CMakeFiles/solver_lib.dir/src/solver.cpp.o -c /home/egor/solver_lib/src/solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egor/TIMP-lab03/solver_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/solver_lib.dir/src/solver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solver_lib.dir/src/solver.cpp.o -MF CMakeFiles/solver_lib.dir/src/solver.cpp.o.d -o CMakeFiles/solver_lib.dir/src/solver.cpp.o -c /home/egor/TIMP-lab03/solver_lib/src/solver.cpp
 
 CMakeFiles/solver_lib.dir/src/solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solver_lib.dir/src/solver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/solver_lib/src/solver.cpp > CMakeFiles/solver_lib.dir/src/solver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egor/TIMP-lab03/solver_lib/src/solver.cpp > CMakeFiles/solver_lib.dir/src/solver.cpp.i
 
 CMakeFiles/solver_lib.dir/src/solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solver_lib.dir/src/solver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/solver_lib/src/solver.cpp -o CMakeFiles/solver_lib.dir/src/solver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egor/TIMP-lab03/solver_lib/src/solver.cpp -o CMakeFiles/solver_lib.dir/src/solver.cpp.s
 
 # Object files for target solver_lib
 solver_lib_OBJECTS = \
@@ -93,7 +93,7 @@ solver_lib_EXTERNAL_OBJECTS =
 libsolver_lib.a: CMakeFiles/solver_lib.dir/src/solver.cpp.o
 libsolver_lib.a: CMakeFiles/solver_lib.dir/build.make
 libsolver_lib.a: CMakeFiles/solver_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egor/solver_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsolver_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egor/TIMP-lab03/solver_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsolver_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/solver_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/solver_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/solver_lib.dir/clean:
 .PHONY : CMakeFiles/solver_lib.dir/clean
 
 CMakeFiles/solver_lib.dir/depend:
-	cd /home/egor/solver_lib/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/egor/solver_lib /home/egor/solver_lib /home/egor/solver_lib/build /home/egor/solver_lib/build /home/egor/solver_lib/build/CMakeFiles/solver_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/egor/TIMP-lab03/solver_lib/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/egor/TIMP-lab03/solver_lib /home/egor/TIMP-lab03/solver_lib /home/egor/TIMP-lab03/solver_lib/build /home/egor/TIMP-lab03/solver_lib/build /home/egor/TIMP-lab03/solver_lib/build/CMakeFiles/solver_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/solver_lib.dir/depend
 
