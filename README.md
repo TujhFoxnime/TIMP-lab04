@@ -9,7 +9,7 @@
 7) mkdir workflows
 8) cd workflows
 9) 
-* name: CMake     (имя процесса)
+* name: CMake                       (имя процесса)
 
 * on:                      (триггеры - условия для запуска процесса)
 *  push:
@@ -17,18 +17,18 @@
 *  pull_request:
 *   branches: [main]
 * 
-* jobs:                    (список задач)
-*  build_Linux:                (название задачи)
+* jobs:                                           (список задач)
+*  build_Linux:                                        (название задачи)
 * 
-*   runs-on: ubuntu-latest          (ос запуска задачи)
+*   runs-on: ubuntu-latest                                 (ос запуска задачи)
 * 
-*   steps:                          (шаги задачи)
-*   - uses: actions/checkout@v3        (поддержка Git_Actions)
+*   steps:                                               (шаги задачи)
+*   - uses: actions/checkout@v3                               (поддержка Git_Actions)
 * 
-*   - name: Configure Solver                    (Настройка)
+*   - name: Configure Solver                                              (Настройка)
 *     run: cmake ${{github.workspace}}/solver_application/ -B ${{github.workspace}}/solver_application/build   (на этой переменной хранится путь до рабочей директории)
 * 
-*   - name: Build Solver                        (Постройка)
+*   - name: Build Solver                                                  (Постройка)
 *     run: cmake --build ${{github.workspace}}/solver_application/build
 * 
 *   - name: Configure HelloWorld
